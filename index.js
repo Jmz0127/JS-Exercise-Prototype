@@ -118,10 +118,10 @@ Baby.prototype.play = function (favoriteToy) {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window/Global Object Binding: defaults to window when no other binding principal is found by the console. Will show an error if you enable strict mode.
+  2. Implicit Binding: The item to the left of the period, for example, new.eat, new is implied to be what 'this' is referring to. 80 percent of the time this is what we will see.
+  3. Explicit Binding: Comprised of either call, bind, and apply - using any these keywords explicity states what 'this' is referring to. 
+  4. New Binding: Constructs a new object and therefore refers to that newly constructed object. 
 */
 
 ///////// END OF CHALLENGE /////////
